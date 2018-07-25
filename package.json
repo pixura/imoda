@@ -1,0 +1,16 @@
+{
+    "name": "video-support",
+    "version": "1.0.0",
+    "description": "My new Decentraland project",
+    "scripts": {
+        "build": "metaverse-compiler build.json",
+        "watch": "metaverse-compiler build.json --watch",
+        "start": "dcl preview"
+    },
+    "author": "decentraland",
+    "license": "MIT",
+    "devDependencies": {
+        "metaverse-api": "^4.0.2",
+        "typescript": "^2.7.2"
+    }
+}
